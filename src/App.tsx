@@ -5,7 +5,10 @@ function App() {
 
   return (
     <>
-        <Home />
+      <Home
+        titulo="Componente Home"
+        texto="Este é o componente Home, que recebe props."
+      />
     </>
   )
 }
