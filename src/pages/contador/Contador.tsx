@@ -2,19 +2,19 @@
 
 function Contador() {
 
-  const [valor, setValor] = useState(0);
+    const [valor, setValor] = useState(0);
 
-  function handleClick() {
-    setValor(valor + 1);
-  }
+    function handleClick() {
+        setValor(valor + 1);
+    }
 
-  return (
-    <div>
-      <h2>Componente Contador</h2>
-      <p>O valor atual é {valor}</p>
-      <button onClick={handleClick}>Adicionar 1</button>
-    </div>
-  )
+    return (
+        <div>
+            <h2>Componente Contador</h2>
+            <p>O valor atual é: {valor}</p>
+            <button onClick={handleClick}>Adicionar 1</button>
+        </div>
+    )
 }
 
-export default Contador;
+export default Contador

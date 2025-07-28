@@ -1,14 +1,10 @@
-import './App.css'
-import Home from './pages/home/Home'
+import './App.css';
+import Contador from './pages/contador/Contador';
 
 function App() {
-
   return (
     <>
-      <Home
-        titulo="Componente Home"
-        texto="Este é o componente Home, que recebe props."
-      />
+      <Contador />
     </>
   )
 }
